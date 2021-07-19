@@ -1,4 +1,4 @@
-var pixelSize = 10;
+var pixelSize = 1;
 var _ = "#ffefff",
          b = "#181010",
          o = "#f7b58c",
