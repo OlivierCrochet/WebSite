@@ -170,8 +170,8 @@ var canvas = document.getElementById('board');
 var ctx = canvas.getContext('2d');
 ctx.lineWidth = .25;
 
-for(var i=0;i< image[0].length ;i++) {
-  for(var j=0;j<image.length;j++) {
+for(var i = 0 ;i < image.length ;i++) {
+  for(var j = 0 ;j < image[0].length ; j++) {
     ctx.fillStyle = image[j][i];
     ctx.fillRect(i*pixelSize, j*pixelSize, pixelSize, pixelSize);
   }
