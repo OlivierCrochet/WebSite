@@ -1,4 +1,4 @@
-var pixelSize = 15;
+var pixelSize = 10;
 var _ = "#ffefff",
          b = "#181010",
          o = "#f7b58c",
@@ -170,8 +170,8 @@ var canvas = document.getElementById('board');
 var ctx = canvas.getContext('2d');
 ctx.lineWidth = .25;
 
-for(var i=0;i<29;i++) {
-  for(var j=0;j<29;j++) {
+for(var i=0;i<160;i++) {
+  for(var j=0;j<144;j++) {
     ctx.fillStyle = image[j][i];
     ctx.fillRect(i*pixelSize, j*pixelSize, pixelSize, pixelSize);
   }
