@@ -38,9 +38,10 @@ var image = [
 var canvas = document.getElementById('board');
 var ctx = canvas.getContext('2d');
 ctx.lineWidth = .25;
+
 for(var i=0;i<29;i++) {
- for(var j=0;j<29;j++) {
-   ctx.fillStyle = image[j][i];
-   ctx.fillRect(i*pixelSize, j*pixelSize, pixelSize, pixelSize);
-     }
-   }
+  for(var j=0;j<29;j++) {
+    ctx.fillStyle = image[j][i];
+    ctx.fillRect(i*pixelSize, j*pixelSize, pixelSize, pixelSize);
+  }
+}
